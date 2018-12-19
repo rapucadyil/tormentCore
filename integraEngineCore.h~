@@ -136,9 +136,6 @@ private:
 
 };
 
-/*
- * A animated sprite representation 
- * */
 class AnimatedSprite : public Component {
 	
 

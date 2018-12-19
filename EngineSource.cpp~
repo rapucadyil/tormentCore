@@ -7,7 +7,7 @@ int main() {
 	
 
 	Entity* e = new Entity(0);
-	//e->addComponent(new Component(1, "test"));
+	e->addComponent(new Component(1, "test"));
 	while(1) {
 	cout << " Entity, with ID:  " << e->getEntityID() << endl;
 	//cout << "With Components: " << e->getCompByName("test") << endl;
